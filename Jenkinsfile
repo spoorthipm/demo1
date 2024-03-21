@@ -2,6 +2,9 @@ pipeline {
 	agent {
 		label 'ssh'
 	}
+
+
+	
 	tools {
         maven 'maven1' 
     }
